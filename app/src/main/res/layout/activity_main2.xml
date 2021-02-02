@@ -1,0 +1,68 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/tv_movie_name"
+        android:layout_margin="20dp"/>
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv_movie_image"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:id="@+id/tv_rating"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_overview"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Original Language"
+        android:id="@+id/tv_original_language"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release Date"
+        android:id="@+id/tv_release_date"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>
